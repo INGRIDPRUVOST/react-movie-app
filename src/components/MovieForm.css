@@ -1,0 +1,32 @@
+.MovieForm {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .MovieForm h1 {
+    text-align: center;
+  }
+  
+  .MovieForm .movie-data {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .MovieForm .movie-data label {
+    display: inline-block;
+    width: 75px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .MovieForm .movie-data input:not([type="submit"]) textarea {
+    flex-grow: 1;
+    border-radius: 3px;
+  }
+
+  fieldset {
+      border-radius: 3px;
+  }
+  
